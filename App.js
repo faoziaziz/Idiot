@@ -10,6 +10,9 @@ import React, {Component} from 'react';
 import {Platform, StyleSheet, Text, View} from 'react-native';
 import { withAuthenticator } from 'aws-amplify-react-native';
 import { Auth } from 'aws-amplify'
+import Amplify from 'aws-amplify'
+import AWSConfig from './aws-exports'
+Amplify.configure(AWSConfig);
 
 // in your component
 Auth.signIn('faoziaziz', 'Azizkeren1234')
