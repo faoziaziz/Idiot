@@ -3,11 +3,10 @@ var AWS = require("aws-sdk");
 AWS.config.update({
   region: "ap-southeast-1"
 });
-
 var dynamodb = new AWS.DynamoDB();
 
 var params = {
-    TableName : "IdiotBase",
+    TableName : "idIoTdb",
     KeySchema: [
         { AttributeName: "year", KeyType: "HASH"},  //Partition key
         { AttributeName: "title", KeyType: "RANGE" }  //Sort key
