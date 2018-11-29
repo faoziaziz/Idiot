@@ -12,8 +12,9 @@ dapet **Huge recommendation** ke singapure apalagi kalau ditambah aws sama java.
 
 Tapi kali ini akan benar-benar dikombinasikan ketiga skill itu (java, react, aws)
 tapi bukan buat ke singapure tapi buat nyelesein tugas PPTB tahun 2017 wkwkwk. Padahal
-nilai udah keluar, tapi atas nama **Tuhan, bangsa, dan adek cantik** ini harus diselesaikan.
+nilai udah keluar, tapi atas nama **Tuhan, bangsa, dan adek cantik**, tugas PPTB ini
+harus diselesaikan, assek.
 
 ## Desain
 
-Backend pake aws, frontend pake library react, jelas build bake java dengan kombinasi node. 
+Backend pake aws, frontend pake library react, jelas build bake java dengan kombinasi node.
