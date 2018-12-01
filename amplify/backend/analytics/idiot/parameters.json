@@ -1,0 +1,11 @@
+{
+    "appName": "idiot",
+    "roleName": "pinpointLambdaRole2ce28c0c",
+    "cloudWatchPolicyName": "cloudWatchPolicy2ce28c0c",
+    "pinpointPolicyName": "pinpointPolicy2ce28c0c",
+    "authPolicyName": "pinpoint_amplify_2ce28c0c",
+    "unauthPolicyName": "pinpoint_amplify_2ce28c0c",
+    "authRoleName": "ido-20181201051455-authRole",
+    "unauthRoleName": "ido-20181201051455-unauthRole",
+    "IAMPrefix": "336158531504"
+}
