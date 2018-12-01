@@ -9,6 +9,13 @@ import {
   createAppContainer
 } from 'react-navigation'; // Version can be specified in package.json
 
+import Amplify from 'aws-amplify';
+import awsConfig from '../aws-exports';
+
+Amplify.configure(awsConfig);
+
+import { withAuthenticator } from 'aws-amplify-react-native';
+
 class HomeScreen extends React.Component {
   render() {
     return (
@@ -73,8 +80,10 @@ const RootStack = createStackNavigator(
 
 const AppContainer = createAppContainer(RootStack);
 
-export default class App extends React.Component {
+class App extends React.Component {
   render() {
     return <AppContainer />;
   }
 }
+
+export default withAuthenticator(App);
