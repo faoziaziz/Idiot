@@ -12,8 +12,10 @@
     "aws-sdk": "^2.366.0",
     "react": "16.6.1",
     "react-native": "0.57.7",
+    "react-native-camera": "^1.4.3",
     "react-native-gesture-handler": "^1.0.10",
-    "react-navigation": "^3.0.2"
+    "react-navigation": "^3.0.2",
+    "rn-fetch-blob": "^0.10.13"
   },
   "devDependencies": {
     "babel-jest": "23.6.0",
